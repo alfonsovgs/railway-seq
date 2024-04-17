@@ -1,0 +1,7 @@
+FROM datalust/seq:latest
+
+ENV ACCEPT_EULA=Y
+
+ENV PORT 5341
+
+EXPOSE $PORT
